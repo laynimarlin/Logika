@@ -1,0 +1,13 @@
+# membuat judul tabel
+print("tabel kebenaran konjungsi")
+print("_________________________")
+
+# menampilkan header tabel
+print("P\t|Q\t|P AND Q")
+print("_________________________")
+
+# menggunakan operator logika 'AND'
+for P in [True, False]:
+    for Q in [True, False]:
+        konjungsi = P and Q
+        print(f"{P}\t|{Q}\t|{konjungsi}")
