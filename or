@@ -1,0 +1,13 @@
+# membuat judul tabel
+print("tabel kebenaran disjungsi")
+print("_________________________")
+
+# menampilkan header tabel
+print("P\t|Q\t|P OR Q")
+print("_________________________")
+
+# menggunakan operator logika 'OR'
+for P in [True, False]:
+    for Q in [True, False]:
+        disjungsi = P or Q
+        print(f"{P}\t|{Q}\t|{disjungsi}")
