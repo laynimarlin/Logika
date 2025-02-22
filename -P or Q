@@ -1,0 +1,13 @@
+# membuat judul tabel
+print("tabel kebenaran -P or Q")
+print("______________________________")
+
+# menampilkan header tabel
+print("P\t|Q\t|-P OR Q")
+print("______________________________")
+
+# menggunakan operator not dan or
+for P in [True, False]:
+    for Q in [True, False]:
+        negasi = not P or Q
+        print(f"{P}\t|{Q}\t|{negasi}")
